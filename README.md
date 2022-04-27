@@ -1,7 +1,7 @@
 # RTL Design Using Verilog With SKY130 Technology
 ![1](https://user-images.githubusercontent.com/64180927/165375376-94d67619-5b34-45b4-8a59-cec5eb493610.png)
 ### This is a report that is submitted as an evaluation for the 5 day workshop 
-## Index 
+## *Index* 
 
 - [RTL Design Using Verilog With SKY130 Technology](#heading)
   * [About This Workshop ](#sub-heading) 
