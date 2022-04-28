@@ -9,8 +9,9 @@
 - [Day 1 : Introduction to Verilog RTL design and Synthesis ](#heading1)
   * [ Introduction to open-source simulator iverilog](#sub-heading1)
     + [Sub-Part 1 : Opening iverilog and visualising an example code using GVIM  ](#sub-sub-heading1)
-    + [Sub-Part 1 : Running the multiplexer example  ](#sub-sub-heading1b)
+    + [Sub-Part 2 : Running the multiplexer example  ](#sub-sub-heading1b)
   * [ Introduction to  Yosys and Logic synthesis](#sub-heading2)
+    + [Sub-Part 1 : Giving input files to the yosys synthesis tool ](#sub-sub-heading2)
 <a name="heading"/>
 
 ## RTL Design Using Verilog With SKY130 Technology 
@@ -54,17 +55,21 @@ Using gvim we can viualize are is present in the verilog files. As shown below t
 
 After simulation is done using the iverilog and ensuring that our design works properly , we need to generate a netlist. This done by mapping the components (various standard cells, pins, I/Os) which are given by the foundary are mapped based on our design. During this stage the yosys EDA tool optimizes the design.Various optimizations that are done are explained in this review later. So, the final output of the Yosys tool is the optimized netlist.To the Yosys tool we give two inputs , they are the our design which is in the form of .v code and a lib file (here from SKY130 technology) is given to the tool to generate the optimized net list. This whole process is shown below 
 
+<a name = "sub-sub-heading2"/> 
+
+####  Giving input files to the yosys synthesis tool 
 <p float="left">
   <img src="https://user-images.githubusercontent.com/64180927/165850815-ff5a59bb-b3ec-46c0-b9e5-b0e2fef161c5.png" width="500"/>
   <img src="https://user-images.githubusercontent.com/64180927/165852012-90dd2c22-66e0-4262-b7b4-fa4c1426a064.png" width="500"/>
 </p>
 
-After giving the tool our designs and library we now use the synth command to synthazise the design 
+After giving the tool our designs and library we now use the synth command to synthazise the design. The tool then uses various algorithms to optimize the design and then map the components.This is shown in the below figures
 
 <p float="left">
-  <img src="https://user-images.githubusercontent.com/64180927/165850815-ff5a59bb-b3ec-46c0-b9e5-b0e2fef161c5.png" width="500"/>
+  <img src="https://user-images.githubusercontent.com/64180927/165855832-8d806d27-80fc-4a1c-9842-926a2122b389.png" width="500"/>
   <img src="https://user-images.githubusercontent.com/64180927/165855703-5428b6fe-9955-439b-9df9-bcc9e0050bc3.png" width="500"/>
 </p>
+
 
 
 
