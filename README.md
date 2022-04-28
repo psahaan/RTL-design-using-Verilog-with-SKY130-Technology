@@ -12,6 +12,11 @@
     + [Sub-Part 2 : Running the multiplexer example  ](#sub-sub-heading1b)
   * [ Introduction to  Yosys and Logic synthesis](#sub-heading2)
     + [Sub-Part 1 : Giving input files to the yosys synthesis tool ](#sub-sub-heading2)
+    + [Sub-Part 2 : Running Synthesis  ](#sub-sub-heading2a)
+    + [Sub-Part 3 :  Visualising the generated  Netlist  ](#sub-sub-heading2b)
+ - [Day 2 : Timing libs , hierarchical vs flat synthesis and efficient flop coding styles ](#heading2)
+  * [ Introduction to dot Lib ](#sub-heading3)
+    + [dot Lib Part 1 : ](#sub-sub-heading3)
 <a name="heading"/>
 
 ## RTL Design Using Verilog With SKY130 Technology 
@@ -63,6 +68,9 @@ After simulation is done using the iverilog and ensuring that our design works p
   <img src="https://user-images.githubusercontent.com/64180927/165852012-90dd2c22-66e0-4262-b7b4-fa4c1426a064.png" width="500"/>
 </p>
 
+<a name = "sub-sub-heading2a"/> 
+
+####  Running Synthesis 
 After giving the tool our designs and library we now use the synth command to synthazise the design. The tool then uses various algorithms to optimize the design and then map the components.This is shown in the below figures
 
 <p float="left">
@@ -70,7 +78,37 @@ After giving the tool our designs and library we now use the synth command to sy
   <img src="https://user-images.githubusercontent.com/64180927/165855703-5428b6fe-9955-439b-9df9-bcc9e0050bc3.png" width="500"/>
 </p>
 
+<a name = "sub-sub-heading2b"/> 
+
+####  Elobarated design 
+Using the show command in the yosys tool we can see the elaborated design as shown in the figure below.This is done after creating the netlist using the abc YOSYS command  In this techology library 2X1 MUX is available so the synthasizer has direclty reaslized the design as shown below using MUX 
+
+<p float="left">
+  <img src="https://user-images.githubusercontent.com/64180927/165857904-89881993-561e-4b1e-b9ac-8683b93f708c.png" width="500"/>
+  <img src="https://user-images.githubusercontent.com/64180927/165857827-85fe56ce-ed69-42ff-a26f-ce20e2e7ab8b.png" width="500"/>
+</p>
+
+<a name = "sub-sub-heading2b"/> 
+
+####  Visualising the generated  Netlist
+
+<p float="left">
+  <img src="https://user-images.githubusercontent.com/64180927/165859445-9e8996ba-7d92-4ac3-9a12-7f7242bc523e.png" width="500"/>
+  <img src="https://user-images.githubusercontent.com/64180927/165859732-02bc54bd-4bd1-472a-a285-46d218338e58.png" width="500"/>
+</p>
+
+<a name="heading2"/>
+
+## Day 2 : Timing libs , hierarchical vs flat synthesis and efficient flop coding styles
 
 
+<a name="sub-heading3"/>
 
+### Introduction to dot Lib
+
+In this session we review what is present in the .lib file of SKY130 technology. We Analyse what are the various things that are present in the .lib file
+
+<a name = "sub-sub-heading3"/> 
+
+#### dot Lib Part 1 :
 
