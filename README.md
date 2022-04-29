@@ -15,9 +15,9 @@
     + [Sub-Part 2 : Running Synthesis  ](#sub-sub-heading2a)
     + [Sub-Part 3 :  Visualising the generated  Netlist  ](#sub-sub-heading2b)
  - [Day 2 : Timing libs , hierarchical vs flat synthesis and efficient flop coding styles ](#heading2)
-  * [ Introduction to dot Lib ](#sub-heading3)
-    + [dot Lib Part 1 : ](#sub-sub-heading3)
-    + [dot Lib Part 2&3 : ](#sub-sub-heading3a)
+   * [ Introduction to dot Lib ](#sub-heading3)
+     + [dot Lib Part 1 : ](#sub-sub-heading3)
+     + [dot Lib Part 2&3 : ](#sub-sub-heading3a)
    * [ Hierarchical vs Flat synthesis ](#sub-heading3a)
 <a name="heading"/>
 
