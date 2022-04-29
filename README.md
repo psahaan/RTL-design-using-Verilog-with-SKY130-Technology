@@ -25,6 +25,7 @@
     * [ Various Flop Coding styles and Optimization ](#sub-heading3b) 
       + [Why Flops are required ](#sub-sub-heading5)
       + [ Different types of Flops and their Coding Styles ](#sub-sub-heading5a)
+      + [ Interesting Optimizations Part 1 & 2  ](#sub-sub-heading5b)
 <a name="heading"/>
 
 ## RTL Design Using Verilog With SKY130 Technology 
@@ -198,3 +199,6 @@ Here we find various coding styles of Flops as shown below , Synchronous Reset a
 ![synthesized design asynchronous set](https://user-images.githubusercontent.com/64180927/166063584-eaa0e64a-ffb2-4d03-a3cd-71f1123457c7.png)
 ![syncres_reset_synthesized design](https://user-images.githubusercontent.com/64180927/166063591-80e66fa9-411b-4904-8739-4f13bf6f2caa.png)
 
+<a name = "sub-sub-heading5b"/> 
+
+####  Interesting Optimizations Part 1 & 2 
