@@ -134,5 +134,7 @@ The discussion continues on more detailed information about the SKY130 standard 
 
 ###  Hierarchical vs Flat synthesis 
 
-
-
+In this session we start with reviewing a verilog code called  multiple_modules as shown below 
+<p float="left">
+  <img src="https://user-images.githubusercontent.com/64180927/165986994-d7208fcd-087c-4e2d-b40c-27af681154d1.png" width="500"/>
+  </p>
