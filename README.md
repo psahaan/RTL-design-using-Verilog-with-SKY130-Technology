@@ -138,7 +138,7 @@ In this session we start with reviewing a verilog code called  multiple_modules 
 <p float="left">
   <img src="https://user-images.githubusercontent.com/64180927/165986994-d7208fcd-087c-4e2d-b40c-27af681154d1.png" width="500"/>
   <img src="https://user-images.githubusercontent.com/64180927/165989866-f549c9bf-8297-4434-8fc1-c9d0e8269871.png" width="500"/>
-  <img src="https://user-images.githubusercontent.com/64180927/165990491-8ad41ee8-f8cd-460a-9915-8400a4a2733d.png" width="500"/>
+  <img src="https://user-images.githubusercontent.com/64180927/165990491-8ad41ee8-f8cd-460a-9915-8400a4a2733d.png" width="1000"/>
   </p>
 
 
