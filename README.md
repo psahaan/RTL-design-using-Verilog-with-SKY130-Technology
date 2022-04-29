@@ -17,6 +17,7 @@
  - [Day 2 : Timing libs , hierarchical vs flat synthesis and efficient flop coding styles ](#heading2)
   * [ Introduction to dot Lib ](#sub-heading3)
     + [dot Lib Part 1 : ](#sub-sub-heading3)
+    + [dot Lib Part - : ](#sub-sub-heading3a)
 <a name="heading"/>
 
 ## RTL Design Using Verilog With SKY130 Technology 
@@ -111,4 +112,20 @@ In this session we review what is present in the .lib file of SKY130 technology.
 <a name = "sub-sub-heading3"/> 
 
 #### dot Lib Part 1 :
+The SKY130 library .lib file contains the information regarding the corners, technology, delay models , units of time voltage and power . Various information regarding the cells present in the library , the power the cell consumes, the delay models of vaious gates  will be present in technology library
 
+<p float="left">
+  <img src="https://user-images.githubusercontent.com/64180927/165952369-8cf40fcd-5125-4190-9186-f96c9ee3e067.png" width="500"/>
+  </p>
+
+<a name = "sub-sub-heading3a"/> 
+
+#### dot Lib Part 2  :
+The discussion continues on more detailed information about the SKY130 standard cell PDK. The instructor took examples of the various AND gates and its versions,, showed the behavioural models of the standard cells present and  comparisions of the same gate with different area and power versions. All of this is indicated int he below figures 
+
+<p float="left">
+  <img src="https://user-images.githubusercontent.com/64180927/165956648-dac4ed45-74be-41a9-b358-599554f6194e.png" width="500"/>
+  </p>
+  <img src="https://user-images.githubusercontent.com/64180927/165957174-4d0264c1-3281-44e9-a2dd-ad0b9204670a.png" width="500"/>
+
+<a name = "sub-sub-heading3a"/>
