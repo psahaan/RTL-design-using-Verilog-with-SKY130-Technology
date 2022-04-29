@@ -134,7 +134,7 @@ The discussion continues on more detailed information about the SKY130 standard 
 
 ###  Hierarchical vs Flat synthesis 
 
-In this session we start with reviewing a verilog code called  multiple_modules as shown below . The main point here is that after synthesizing the architecture below the synthesized design contains sub-modules instead of discrete components. This is due to Hierarchical Synthesis .The netlist generated is also show below contains connections between sub-modules  
+In this session we start with reviewing a verilog code called  multiple_modules as shown below . The main point here is that after synthesizing the architecture below the synthesized design contains sub-modules instead of discrete components. This is due to Hierarchical Synthesis .The netlist generated is also show below contains connections between sub-modules .Also attached is the netlist that is generated after synthesis 
 <p float="left">
   <img src="https://user-images.githubusercontent.com/64180927/165986994-d7208fcd-087c-4e2d-b40c-27af681154d1.png" width="500"/>
   <img src="https://user-images.githubusercontent.com/64180927/165989866-f549c9bf-8297-4434-8fc1-c9d0e8269871.png" width="500"/>
