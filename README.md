@@ -184,6 +184,10 @@ To avoid Glitches that are caused by the combinational circuits and as a storage
 
 #### Different types of Flops and their Coding Styles 
 
-Here we find various coding styles of Flops as shown below , Synchronous Reset and Asynchronous Reset 
-![FLOPS 1](https://user-images.githubusercontent.com/64180927/166016996-d9f8268e-7575-4329-a0cd-8f7928d5da73.png)
+Here we find various coding styles of Flops as shown below , Synchronous Reset and Asynchronous Reset . Here the instructor also discussed about how various D Flip flops area synthesized using yosys 
+<p float="left">
+  <img src="https://user-images.githubusercontent.com/64180927/166016996-d9f8268e-7575-4329-a0cd-8f7928d5da73.png"/>
+  <img src=""/>
+
+  </p>
 
