@@ -26,6 +26,8 @@
       + [Why Flops are required ](#sub-sub-heading5)
       + [ Different types of Flops and their Coding Styles ](#sub-sub-heading5a)
       + [ Interesting Optimizations Part 1 & 2  ](#sub-sub-heading5b)
+  - [Day 3 : Combinational And Sequential Optimizations](#heading3)
+  
 <a name="heading"/>
 
 ## RTL Design Using Verilog With SKY130 Technology 
@@ -202,3 +204,8 @@ Here we find various coding styles of Flops as shown below , Synchronous Reset a
 <a name = "sub-sub-heading5b"/> 
 
 ####  Interesting Optimizations Part 1 & 2 
+Yet to be updated 
+
+<a name = "heading3"/>
+
+## Day 3  :  Combinational And Sequential Optimizations 
