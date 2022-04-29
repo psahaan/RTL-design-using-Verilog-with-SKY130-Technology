@@ -19,6 +19,8 @@
      + [dot Lib Part 1 : ](#sub-sub-heading3)
      + [dot Lib Part 2&3 : ](#sub-sub-heading3a)
    * [ Hierarchical vs Flat synthesis ](#sub-heading3a)
+      + [Hierarchical : ](#sub-sub-heading4)
+      + [ Flat : ](#sub-sub-heading4a)
 <a name="heading"/>
 
 ## RTL Design Using Verilog With SKY130 Technology 
@@ -134,6 +136,10 @@ The discussion continues on more detailed information about the SKY130 standard 
 
 ###  Hierarchical vs Flat synthesis 
 
+<a name = "sub-sub-heading4"/>
+
+####  Hierarchical 
+
 In this session we start with reviewing a verilog code called  multiple_modules as shown below . The main point here is that after synthesizing the architecture below the synthesized design contains sub-modules instead of discrete components. This is due to Hierarchical Synthesis .The netlist generated is also show below contains connections between sub-modules .Also attached is the netlist that is generated after synthesis 
 <p float="left">
   <img src="https://user-images.githubusercontent.com/64180927/165986994-d7208fcd-087c-4e2d-b40c-27af681154d1.png" width="500"/>
@@ -141,4 +147,8 @@ In this session we start with reviewing a verilog code called  multiple_modules 
   <img src="https://user-images.githubusercontent.com/64180927/165990491-8ad41ee8-f8cd-460a-9915-8400a4a2733d.png" width="1000"/>
   </p>
 
+<a name = "sub-sub-heading4a"/>
+
+####  Flat synthesis 
+Now we use flattening using flatten command   to get the sysnthesized command to gate level instead of submodule level .After doing this we get something called flattened netlist instead of hierarchy netlist. 
 
