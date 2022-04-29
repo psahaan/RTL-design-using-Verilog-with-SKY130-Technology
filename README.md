@@ -23,6 +23,8 @@
       + [ Flat : ](#sub-sub-heading4a)
       + [ Submodule level synthesis   : ](#sub-sub-heading4a)
     * [ Various Flop Coding styles and Optimization ](#sub-heading3b) 
+      + [Why Flops are required ](#sub-sub-heading5)
+      + [ Different types of Flops and their Coding Styles ](#sub-sub-heading5a)
 <a name="heading"/>
 
 ## RTL Design Using Verilog With SKY130 Technology 
@@ -171,4 +173,17 @@ Used when multiple instantiation of same module or we want to do divide and conq
 
 <a name = "sub-heading3b"/>
 
-### Various Flop Coding styles and Optimization 
+### Various Flop Coding styles and Optimization  
+
+<a name = "sub-sub-heading5"/>
+
+#### Why Flops are required  
+To avoid Glitches that are caused by the combinational circuits and as a storage elements we need flops  
+
+<a name = "sub-sub-heading5a"/>
+
+#### Different types of Flops and their Coding Styles 
+
+Here we find various coding styles of Flops as shown below , Synchronous Reset and Asynchronous Reset 
+![FLOPS 1](https://user-images.githubusercontent.com/64180927/166016996-d9f8268e-7575-4329-a0cd-8f7928d5da73.png)
+
