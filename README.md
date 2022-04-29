@@ -21,7 +21,7 @@
    * [ Hierarchical vs Flat synthesis ](#sub-heading3a)
       + [Hierarchical : ](#sub-sub-heading4)
       + [ Flat : ](#sub-sub-heading4a)
-      + [ Hierarchical Vs Flat Synthesis  : ](#sub-sub-heading4a)
+      + [ Submodule level synthesis   : ](#sub-sub-heading4a)
       
 <a name="heading"/>
 
@@ -163,6 +163,8 @@ Now we use flattening using flatten command   to get the sysnthesized command to
 
 <a name = "sub-sub-heading4b"/>
 
-####  Hierarchical Vs Flat Synthesis 
+####  Submodule level synthesis 
 
+Used when multiple instantiation of same module or we want to do divide and conquer approach , so when design is very  massive , we will give one portion by one portion.
 
+![39](https://user-images.githubusercontent.com/64180927/166003572-22faa3e4-5e56-43b3-a574-21237ba71286.png)
