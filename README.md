@@ -21,6 +21,8 @@
    * [ Hierarchical vs Flat synthesis ](#sub-heading3a)
       + [Hierarchical : ](#sub-sub-heading4)
       + [ Flat : ](#sub-sub-heading4a)
+      + [ Hierarchical Vs Flat Synthesis  : ](#sub-sub-heading4a)
+      
 <a name="heading"/>
 
 ## RTL Design Using Verilog With SKY130 Technology 
@@ -159,5 +161,8 @@ Now we use flattening using flatten command   to get the sysnthesized command to
 
   </p>
 
+<a name = "sub-sub-heading4b"/>
+
+####  Hierarchical Vs Flat Synthesis 
 
 
