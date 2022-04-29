@@ -17,7 +17,8 @@
  - [Day 2 : Timing libs , hierarchical vs flat synthesis and efficient flop coding styles ](#heading2)
   * [ Introduction to dot Lib ](#sub-heading3)
     + [dot Lib Part 1 : ](#sub-sub-heading3)
-    + [dot Lib Part - : ](#sub-sub-heading3a)
+    + [dot Lib Part 2&3 : ](#sub-sub-heading3a)
+   * [ Hierarchical vs Flat synthesis ](#sub-heading3a)
 <a name="heading"/>
 
 ## RTL Design Using Verilog With SKY130 Technology 
@@ -120,12 +121,18 @@ The SKY130 library .lib file contains the information regarding the corners, tec
 
 <a name = "sub-sub-heading3a"/> 
 
-#### dot Lib Part 2  :
-The discussion continues on more detailed information about the SKY130 standard cell PDK. The instructor took examples of the various AND gates and its versions,, showed the behavioural models of the standard cells present and  comparisions of the same gate with different area and power versions. All of this is indicated int he below figures 
+#### dot Lib Part 2 & 3  :
+The discussion continues on more detailed information about the SKY130 standard cell PDK. The instructor took examples of the various AND gates and its versions, showed the behavioural models of the standard cells present and  comparisions of the same gate with different area and power versions.lib files also contains the information regarding what power is consumes and what area it has for different input combinations. All of this is indicated int he below figures 
 
 <p float="left">
   <img src="https://user-images.githubusercontent.com/64180927/165956648-dac4ed45-74be-41a9-b358-599554f6194e.png" width="500"/>
-  </p>
   <img src="https://user-images.githubusercontent.com/64180927/165957174-4d0264c1-3281-44e9-a2dd-ad0b9204670a.png" width="500"/>
+  <img src="https://user-images.githubusercontent.com/64180927/165957660-1ace896c-7274-4360-bb1a-06d2b2ed2b07.png" width="500"/>
+  </p>
+  
+<a name = "sub-heading3a"/>
 
-<a name = "sub-sub-heading3a"/>
+###  Hierarchical vs Flat synthesis 
+
+
+
