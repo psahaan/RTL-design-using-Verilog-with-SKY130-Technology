@@ -190,4 +190,10 @@ Here we find various coding styles of Flops as shown below , Synchronous Reset a
   <img src=""/>
 
   </p>
+![FLOPS 3](https://user-images.githubusercontent.com/64180927/166063546-65dd4311-d566-4cfb-8034-17e482af8d98.png)
+![FLOPS 5](https://user-images.githubusercontent.com/64180927/166063551-b9820aeb-7c5c-4a80-a8fb-a54aa885579e.png)
+![FLOPS 7](https://user-images.githubusercontent.com/64180927/166063556-3721df1f-a4e1-4106-b46b-ad77f2a4c140.png)
+![synthesized design](https://user-images.githubusercontent.com/64180927/166063571-5e9fea06-50a6-40f2-9fcf-717730c88e69.png)
+![synthesized design asynchronous set](https://user-images.githubusercontent.com/64180927/166063584-eaa0e64a-ffb2-4d03-a3cd-71f1123457c7.png)
+![syncres_reset_synthesized design](https://user-images.githubusercontent.com/64180927/166063591-80e66fa9-411b-4904-8739-4f13bf6f2caa.png)
 
