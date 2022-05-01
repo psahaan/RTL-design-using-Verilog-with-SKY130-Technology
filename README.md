@@ -267,8 +267,8 @@ Outputs not having a direct roule in determining the primary outputs , all those
 
 <p float="left">
  
-  <img src="https://user-images.githubusercontent.com/64180927/166145749-7b9bc0d1-7b5e-422b-bcbe-a49e553be9d1.png" width="500"/>
-  <img src="https://user-images.githubusercontent.com/64180927/166145795-0e508394-8aa6-46fe-b5c0-cfc5066a28f2.png" width="500"/>
+  <img src="https://user-images.githubusercontent.com/64180927/166145749-7b9bc0d1-7b5e-422b-bcbe-a49e553be9d1.png" />
+  <img src="https://user-images.githubusercontent.com/64180927/166145795-0e508394-8aa6-46fe-b5c0-cfc5066a28f2.png" />
  
   </p>
 
