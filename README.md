@@ -41,7 +41,11 @@
       + [ Partial Case   ](#sub-sub-heading7a)
       + [ Bad Case   ](#sub-sub-heading7b)
     * [ For Loop and For Generate:](#sub-heading6b)
-    * 
+        + [For Loop   ](#sub-sub-heading8)
+      + [ For Generate  ](#sub-sub-heading8a)
+      + [ For Loop vs For Generate    ](#sub-sub-heading8b) 
+
+
  - [References ](#heading6)
  
 
@@ -407,5 +411,33 @@ There is also a synthesis and simulation mismatch in this bad case as shown belo
 
  <a name = "sub-heading6b"/>
  
-###  For Loop and For Generate:
+###  For Loop and For Generate: 
+
+<a name = "sub-sub-heading8"/>
+
+#### For Loop 
+For Loop is used to evaluate the expressions. For example if we need to write a verilog code for 256 X 1 MUX ,it becoms quite difficult to write using a case statement as it would require writing all the possible 256 cases, instead using a  For loop reduces the complexity of the code .
+
+<a name = "sub-sub-heading8a"/>
+#### For Generate
+
+If we need to need to repeat multiple instances of the same hard ware  as in case of  ripple carry adder For Generate becoms handy. The main key differences between For Loop and For Generate is shown in the table below 
+
+<a name = "sub-sub-heading8b"/>
+
+#### For Loop vs For Generate  
+
+
+![Screenshot from 2022-05-02 00-38-33](https://user-images.githubusercontent.com/64180927/166160809-2d9edbc3-8945-4b67-a623-c472bdade7c4.png)
+
+
+<a name = "#heading6"/>
+
+
+## References 
+
+Kunal Ghosh, co-founder of VLSI System Design (VSD) Corp. Pvt. Ltd
+
+Teaching Assistant : Shon Taware 
+
 
