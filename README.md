@@ -326,5 +326,6 @@ On the same design when we do syntheis in yosys  we get a MUX with out any flop 
 ## DAY 5 :  If, case , for loop and generate 
 
 ### latch infering in IF construct 
+
   <a name = "sub-heading5"/> 
 
