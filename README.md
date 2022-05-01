@@ -306,4 +306,15 @@ Synthesis and simulation mismatches are caused due to improper way of writing th
    <img src="https://user-images.githubusercontent.com/64180927/166148609-cedb095a-eee7-4bba-b5bc-4709095b93c3.png" />
   </p>
 
+On the same design when we do syntheis in yosys  we get a MUX with out any flop , this is shown below and is called synthesis , simulaiton mismatch 
+
+<p float="left">
+ 
+    <img src="https://user-images.githubusercontent.com/64180927/166149170-d1a76016-47c4-4b15-aef6-37b5d7bf06c4.png" />
+    <img src="https://user-images.githubusercontent.com/64180927/166149195-45003554-6b19-4f60-bbca-ef6e48574b84.png" />
+    <img src="https://user-images.githubusercontent.com/64180927/166149218-cf373d05-38a4-441a-85d1-991b5ce1dd83.png" />
+  </p>
+ 
+ 
+
 
