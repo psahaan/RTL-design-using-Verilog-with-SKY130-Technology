@@ -30,7 +30,8 @@
     * [ Introduction to optimizations](#sub-heading4)
       + [ Subpart  Part 1 ,2, 3  ](#sub-sub-heading6)
     * [Combinational Logic Optimizations](#sub-sub-heading6a) 
-    * [Sequential  Logic Optimizations](#sub-sub-heading6b) 
+    * [Sequential  Logic Optimizations](#sub-sub-heading6b)  
+    * [Sequential  Logic Optimizations for unused ports ](#sub-sub-heading6c)  
 <a name="heading"/>
 
 ## RTL Design Using Verilog With SKY130 Technology 
@@ -250,4 +251,13 @@ So after running the synthesis in yosys synthesis tool as expected we will get t
 Similarly in case of Sequential Logic Circuits like DFF ,( not in all the cases ) but in some cases when for any combination of inputs and resets if the output is fixed we do not need any logic for that in those cases the synthasized logic is very simplified as shown below , for example there is a case when the output of the DFF is always one whether it is reset or D so in that case the synthesized design is as shown below 
 
 ![18](https://user-images.githubusercontent.com/64180927/166145330-f9d33fab-9911-484f-a19f-9c6f308915a9.png)
+
+
+<a name = "sub-sub-heading6c"/> 
+
+### Sequential  Logic Optimizations for unused ports 
+
+Outputs not having a direct roule in determining the primary outputs , all those outputs are optimised by the synthesizer , this is shown in figures below 
+
+
 
