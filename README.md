@@ -290,7 +290,7 @@ And if all the 3 outputs are used in determining the primary outputs then 3 Flop
 
 ### Introduction 
 
-Gatel Level Simulation is necessary to verify whether the synthesized netlist matches the RTL simulation done before synthesis and to check if there is any synthesis and simulation mismathes are present. The flow for doing the GLS is as shown below by the instructor : 
+Gatel Level Simulation is necessary to verify whether the synthesized netlist matches the RTL simulation done before synthesis and to check if there is any synthesis and simulation mismathes are present. The flow for doing the GLS is as shown below : 
 
 ![Screenshot from 2022-05-01 21-00-50](https://user-images.githubusercontent.com/64180927/166153033-b12f6108-7b0d-4814-bb98-e5cdd397a46e.png)
 
@@ -327,6 +327,17 @@ On the same design when we do syntheis in yosys  we get a MUX with out any flop 
   <a name = "sub-heading6"/> 
 
 ### latch infering in IF construct 
+The below image shows one of the wrong ways of coding the mux as this will infer a latch since all the  possible cases are not well defined .The second image shows the simulation that when i0 is zero , the output is latched to the previous state. This called inferring latches 
+
+![Screenshot from 2022-05-01 21-26-44](https://user-images.githubusercontent.com/64180927/166154220-ece18381-241d-4f0d-aaca-132c891c13bc.png)
+![Screenshot from 2022-05-01 21-47-27](https://user-images.githubusercontent.com/64180927/166154819-1bb98370-d52f-43b5-b3c7-2458cbca0e8e.png)
+![Screenshot from 2022-05-01 21-40-21](https://user-images.githubusercontent.com/64180927/166154490-6710fbf8-000a-4b3a-bd78-06f33fcb8afe.png) 
+
+After synthesys the above code will be as shown below as expected 
+
+![DAY 5 9](https://user-images.githubusercontent.com/64180927/166154850-00b6f014-2071-4028-986e-c7b3e424bc66.png)
+
+
 
 
 
