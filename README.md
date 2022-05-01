@@ -315,6 +315,6 @@ On the same design when we do syntheis in yosys  we get a MUX with out any flop 
     <img src="https://user-images.githubusercontent.com/64180927/166149218-cf373d05-38a4-441a-85d1-991b5ce1dd83.png" />
   </p>
  
- 
+ Similar kind of behaviour is expected when we do not properly use blocking statements, the order in which we write the blocking statements may lead to synthesis simulation mismatches 
 
 
