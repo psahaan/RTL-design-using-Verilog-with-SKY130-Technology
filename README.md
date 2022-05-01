@@ -145,12 +145,15 @@ The SKY130 library .lib file contains the information regarding the corners, tec
 The discussion continues on more detailed information about the SKY130 standard cell PDK. The instructor took examples of the various AND gates and its versions, showed the behavioural models of the standard cells present and  comparisions of the same gate with different area and power versions.lib files also contains the information regarding what power is consumes and what area it has for different input combinations. All of this is indicated int he below figures 
 
 <p float="left">
-  <img src="https://user-images.githubusercontent.com/64180927/165956648-dac4ed45-74be-41a9-b358-599554f6194e.png" width="500"/>
-  <img src="https://user-images.githubusercontent.com/64180927/165957174-4d0264c1-3281-44e9-a2dd-ad0b9204670a.png" width="500"/>
-  <img src="https://user-images.githubusercontent.com/64180927/165957660-1ace896c-7274-4360-bb1a-06d2b2ed2b07.png" width="500"/>
+   
+ 
+   <img src="https://user-images.githubusercontent.com/64180927/166155592-a544dbe3-25b0-4f93-9875-ac98fae3e029.png" />
+  <img src="https://user-images.githubusercontent.com/64180927/166155776-23864a93-3de1-4675-8721-5bc9d42124bd.png" />
   </p>
   
 <a name = "sub-heading3a"/>
+
+
 
 ###  Hierarchical vs Flat synthesis 
 
