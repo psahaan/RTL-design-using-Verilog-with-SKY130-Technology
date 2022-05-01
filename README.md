@@ -30,7 +30,7 @@
     * [ Introduction to optimizations](#sub-heading4)
       + [ Subpart  Part 1 ,2, 3  ](#sub-sub-heading6)
     * [Combinational Logic Optimizations](#sub-sub-heading6a) 
-    * 
+    * [Sequential  Logic Optimizations](#sub-sub-heading6b) 
 <a name="heading"/>
 
 ## RTL Design Using Verilog With SKY130 Technology 
@@ -241,3 +241,13 @@ Some logic with with multiplexers for which  some of the inputs of the multiplex
 So after running the synthesis in yosys synthesis tool as expected we will get the result as shown below 
 
 ![14](https://user-images.githubusercontent.com/64180927/166145111-64d3b13f-1385-4499-92c0-4031cdd5c2fc.png)
+
+
+<a name = "sub-sub-heading6b"/> 
+
+### Sequential  Logic Optimizations 
+
+Similarly in case of Sequential Logic Circuits like DFF ,( not in all the cases ) but in some cases when for any combination of inputs and resets if the output is fixed we do not need any logic for that in those cases the synthasized logic is very simplified as shown below , for example there is a case when the output of the DFF is always one whether it is reset or D so in that case the synthesized design is as shown below 
+
+![18](https://user-images.githubusercontent.com/64180927/166145330-f9d33fab-9911-484f-a19f-9c6f308915a9.png)
+
