@@ -204,7 +204,12 @@ Here we find various coding styles of Flops as shown below , Synchronous Reset a
 <a name = "sub-sub-heading5b"/> 
 
 ####  Interesting Optimizations Part 1 & 2 
-Yet to be updated 
+Some circuits like multiplications by 2 and 9 do not actually need multipliers , this can be done very easily as shown in below circuits 
+![generated netlist for mul2](https://user-images.githubusercontent.com/64180927/166144198-698ae4aa-1261-412e-8462-090657864708.png)
+![multiplier by 2 synthesis](https://user-images.githubusercontent.com/64180927/166144205-9b491b6f-b943-4972-8101-b9efa5a9b540.png)
+![net_list_for_multiply_by 9](https://user-images.githubusercontent.com/64180927/166144209-31ba3425-f09a-4033-84a2-6807c2645cbd.png)
+![multiplier by 9 synthesized design](https://user-images.githubusercontent.com/64180927/166144211-ba4755bb-ed62-48bd-be42-a9f4df7998cb.png)
+
 
 <a name = "heading3"/>
 
