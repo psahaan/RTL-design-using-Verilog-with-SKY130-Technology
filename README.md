@@ -383,6 +383,14 @@ As expected, during synthesis a latch is infered in x path due to improper way o
  
 ![DAY 5 27](https://user-images.githubusercontent.com/64180927/166158267-91c17a47-0529-4f42-ba7b-69de24ca941c.png)
 
+ <a name = "sub-sub-heading7b"/> 
+ 
+ #### Bad Case 
+ 
+ Another bad way of writing in CASE statement is partial case which is as shown below .The verilog code , simulation and synthesis results are as shown below 
+ 
+
+![Screenshot from 2022-05-01 23-57-32](https://user-images.githubusercontent.com/64180927/166159367-4815a123-3bc0-4275-b5b9-0d293719e675.png)
 
 
 
