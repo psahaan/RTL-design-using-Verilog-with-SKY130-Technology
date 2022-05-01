@@ -296,4 +296,14 @@ Gatel Level Simulation is necessary to verify whether the synthesized netlist ma
 
 <a name = "sub-heading5a"/>
 
-###  Synthesis simulation Mismatches 
+###  Synthesis simulation Mismatches
+
+Synthesis and simulation mismatches are caused due to improper way of writing the verilog code , the below example shows how a latching action is seen in case of a MUX in simulation , where as in the sysnthesis , correct mux behaviour is retained , this is a bad way of writing the verilog code as different functionality is seen in simulation and synthesis . The first figure shows the bad mux in which the mux output changes only when a switching event in select happens ,  the first image shows a part of verilog code and second image is the simulation result 
+
+<p float="left">
+ 
+   <img src="https://user-images.githubusercontent.com/64180927/166148482-666d85ab-15e6-4194-9b20-307840a94d27.png" />
+   <img src="https://user-images.githubusercontent.com/64180927/166148609-cedb095a-eee7-4bba-b5bc-4709095b93c3.png" />
+  </p>
+
+
