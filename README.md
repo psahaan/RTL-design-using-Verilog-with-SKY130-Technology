@@ -37,6 +37,9 @@
  - [Day 5 : If, case , for loop and generate  ](#heading5)
     * [ Latch inferring in If construct :](#sub-heading6)
     * [ Latch inferring in CASE construct :](#sub-heading6a)
+      + [ Incomplete Case   ](#sub-sub-heading7)
+      + [ Partial Case   ](#sub-sub-heading7a)
+      + [ Bad Case   ](#sub-sub-heading7b)
 
 
 <a name="heading"/>
@@ -352,8 +355,34 @@ After synthesys the above code will be as shown below as expected
 
   <a name = "sub-heading6a"/> 
 
-### latch infering in CASE construct 
-Similar problems occur if we do not properly code the CASE construct . A properly written CASE statement with default statement removes problems in case statement. The figures below shows the problematic CASE coding styles 
+### latch infering in CASE construct
+
+ <a name = "sub-sub-heading7"/> 
+
+#### Incomplete Case 
+
+Similar problems occur if we do not properly code the CASE construct . A properly written CASE statement with default statement removes problems in case statement. The figures below shows the problematic CASE coding styles. The simulation and synthesis results are also shown below 
+
+![Screenshot from 2022-05-01 23-33-10](https://user-images.githubusercontent.com/64180927/166158647-c32e9455-74ec-4e98-b880-bdb8226fcff5.png)
+
+![DAY 5 17](https://user-images.githubusercontent.com/64180927/166158047-dcd62d4d-71de-4d4c-bd9d-55becff2d0c8.png)
+
+So to avoid infering a D latch as above we should add a default statement.
+
+ <a name = "sub-sub-heading7a"/> 
+ 
+ #### Partial Case 
+
+Another bad way of writing in CASE statement is partial case which is as shown below
+
+
+
+![Screenshot from 2022-05-01 23-23-33](https://user-images.githubusercontent.com/64180927/166158213-aa669c8e-2d1b-435a-89cf-d34a18b3c758.png)
+
+As expected, during synthesis a latch is infered in x path due to improper way of writing of CASE statement. 
+ 
+![DAY 5 27](https://user-images.githubusercontent.com/64180927/166158267-91c17a47-0529-4f42-ba7b-69de24ca941c.png)
+
 
 
 
