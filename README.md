@@ -4,8 +4,7 @@
 ## *Index* 
 
 - [RTL Design Using Verilog With SKY130 Technology](#heading)
-  * [About This Workshop ](#sub-heading) 
-  
+  * [About This Workshop ](#sub-heading)  
 - [Day 1 : Introduction to Verilog RTL design and Synthesis ](#heading1)
   * [ Introduction to open-source simulator iverilog](#sub-heading1)
     + [Sub-Part 1 : Opening iverilog and visualising an example code using GVIM  ](#sub-sub-heading1)
@@ -17,7 +16,7 @@
  - [Day 2 : Timing libs , hierarchical vs flat synthesis and efficient flop coding styles ](#heading2)
    * [ Introduction to dot Lib ](#sub-heading3)
      + [dot Lib Part 1 : ](#sub-sub-heading3)
-     + [dot Lib Part 2&3 : ](#sub-sub-heading3a)
+     + [dot Lib Part 2&3 : ](#sub-sub-heading3a)  
    * [ Hierarchical vs Flat synthesis ](#sub-heading3a)
       + [Hierarchical : ](#sub-sub-heading4)
       + [ Flat : ](#sub-sub-heading4a)
@@ -25,13 +24,16 @@
     * [ Various Flop Coding styles and Optimization ](#sub-heading3b) 
       + [Why Flops are required ](#sub-sub-heading5)
       + [ Different types of Flops and their Coding Styles ](#sub-sub-heading5a)
-      + [ Interesting Optimizations Part 1 & 2  ](#sub-sub-heading5b)
+      + [ Interesting Optimizations Part 1 & 2  ](#sub-sub-heading5b) 
   - [Day 3 : Combinational And Sequential Optimizations](#heading3) 
     * [ Introduction to optimizations](#sub-heading4)
       + [ Subpart  Part 1 ,2, 3  ](#sub-sub-heading6)
     * [Combinational Logic Optimizations](#sub-sub-heading6a) 
     * [Sequential  Logic Optimizations](#sub-sub-heading6b)  
-    * [Sequential  Logic Optimizations for unused ports ](#sub-sub-heading6c)  
+    * [Sequential  Logic Optimizations for unused ports ](#sub-sub-heading6c)   
+ - [Day 4 : GLS,blocking vs non-blocking , Synthesis Simulation Mismatches ](#heading4) 
+
+
 <a name="heading"/>
 
 ## RTL Design Using Verilog With SKY130 Technology 
@@ -274,7 +276,17 @@ And if all the 3 outputs are used in determining the primary outputs then 3 Flop
  
   </p>
 
+<a name = "heading4"/>
+
+# GLS,blocking vs non-blocking , Synthesis Simulation Mismatches 
+
+Gatel Level Simulation is necessary to verify whether the synthesized netlist matches the RTL simulation done before synthesis and to check if there is any synthesis and simulation mismathes are present. The flow for doing the GLS is as shown below by the instructor : 
 
 
+<p float="left">
+ 
+  <img src="https://https://user-images.githubusercontent.com/64180927/166147097-9dea91a2-48b7-4cfa-9163-e52e9931dffe.png" width="500"/>
+ 
+  </p>
 
 
