@@ -35,6 +35,7 @@
    * [ Introduction :](#sub-heading5)
    * [ Synthesis simulation Mismatches ](#sub-heading5a)
  - [Day 5 : If, case , for loop and generate  ](#heading5)
+    * [ Latch inferring in If construct :](#sub-heading5)
 
 
 <a name="heading"/>
@@ -324,4 +325,6 @@ On the same design when we do syntheis in yosys  we get a MUX with out any flop 
 
 ## DAY 5 :  If, case , for loop and generate 
 
+### latch infering in IF construct 
+  <a name = "sub-heading5"/> 
 
