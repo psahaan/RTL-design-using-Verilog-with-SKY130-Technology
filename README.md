@@ -310,12 +310,10 @@ On the same design when we do syntheis in yosys  we get a MUX with out any flop 
 
 <p float="left">
  
-    <img src="https://user-images.githubusercontent.com/64180927/166149170-d1a76016-47c4-4b15-aef6-37b5d7bf06c4.png" />
-    <img src="https://user-images.githubusercontent.com/64180927/166149195-45003554-6b19-4f60-bbca-ef6e48574b84.png" />
-    <img src="https://user-images.githubusercontent.com/64180927/166149218-cf373d05-38a4-441a-85d1-991b5ce1dd83.png" />
- 
+   <img src="https://user-images.githubusercontent.com/64180927/166149396-c7186443-f596-4e91-8d33-a4a4c53452a6.png" />
+   <img src="https://user-images.githubusercontent.com/64180927/166149394-4e182796-21a4-4cc2-b643-cf06e2a460c3.png" />
+    <img src="https://user-images.githubusercontent.com/64180927/166149457-dc932c4c-a7d2-48f2-a569-d6d8d7f6193e.png" />
   </p>
+
  
  Similar kind of behaviour is expected when we do not properly use blocking statements, the order in which we write the blocking statements may lead to synthesis simulation mismatches 
-
-
