@@ -26,8 +26,9 @@
       + [Why Flops are required ](#sub-sub-heading5)
       + [ Different types of Flops and their Coding Styles ](#sub-sub-heading5a)
       + [ Interesting Optimizations Part 1 & 2  ](#sub-sub-heading5b)
-  - [Day 3 : Combinational And Sequential Optimizations](#heading3)
-  
+  - [Day 3 : Combinational And Sequential Optimizations](#heading3) 
+    * [ Introduction to optimizations](#sub-heading4)
+      + [ Subpart  Part 1 ,2, 3  ](#sub-sub-heading6)
 <a name="heading"/>
 
 ## RTL Design Using Verilog With SKY130 Technology 
@@ -213,4 +214,12 @@ Some circuits like multiplications by 2 and 9 do not actually need multipliers ,
 
 <a name = "heading3"/>
 
-## Day 3  :  Combinational And Sequential Optimizations 
+## Day 3  :  Combinational And Sequential Optimizations
+
+<a name = "sub-heading4"/>
+
+### Introduction to optimizations 
+
+<a name = "sub-sub-heading6"/> 
+
+In this module we are introduced to basic optimization schemes for both combinational and sequential circuits, some of them are constant logic optimization , boolean logic optimization in case of combinational circuits  and sequantial constant optimization in case of sequential circuits. Other important optimization like cloning , retiming were also discussed 
