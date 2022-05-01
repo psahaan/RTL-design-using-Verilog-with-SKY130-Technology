@@ -35,7 +35,7 @@
    * [ Introduction :](#sub-heading5)
    * [ Synthesis simulation Mismatches ](#sub-heading5a)
  - [Day 5 : If, case , for loop and generate  ](#heading5)
-    * [ Latch inferring in If construct :](#sub-heading5)
+    * [ Latch inferring in If construct :](#sub-heading6)
 
 
 <a name="heading"/>
@@ -200,12 +200,14 @@ To avoid Glitches that are caused by the combinational circuits and as a storage
 Here we find various coding styles of Flops as shown below , Synchronous Reset and Asynchronous Reset . Here the instructor also discussed about how various D Flip flops area synthesized using yosys 
 
 <p float="left">
-  <img src="https://user-images.githubusercontent.com/64180927/166016996-d9f8268e-7575-4329-a0cd-8f7928d5da73.png"/>
+  <img src="https://user-images.githubusercontent.com/64180927/166153573-0f865806-0b73-4799-a7be-56ff0f0d7f08.png"/>
   <img src="https://user-images.githubusercontent.com/64180927/166063546-65dd4311-d566-4cfb-8034-17e482af8d98.png"/>
   <img src="https://user-images.githubusercontent.com/64180927/166063551-b9820aeb-7c5c-4a80-a8fb-a54aa885579e.png"/>
   <img src="https://user-images.githubusercontent.com/64180927/166063556-3721df1f-a4e1-4106-b46b-ad77f2a4c140.png"/>
  
   </p>
+
+
  
 ![synthesized design](https://user-images.githubusercontent.com/64180927/166063571-5e9fea06-50a6-40f2-9fcf-717730c88e69.png)
 ![synthesized design asynchronous set](https://user-images.githubusercontent.com/64180927/166063584-eaa0e64a-ffb2-4d03-a3cd-71f1123457c7.png)
@@ -242,8 +244,7 @@ In this module we are introduced to basic optimization schemes for both combinat
 
 Some logic with with multiplexers for which  some of the inputs of the multiplexers is tied to zero need not need  a mux they just need an AND gate , this kind of optimizations are very useful to reduce the logic , these are defined as shown below  
 
-
-![13](https://user-images.githubusercontent.com/64180927/166145029-84c4abbf-5759-4595-8085-e3df6b7126d4.png)
+![Screenshot from 2022-05-01 21-09-42](https://user-images.githubusercontent.com/64180927/166153397-7fdf70e2-e9ac-4e23-9f0d-5c96f17e5251.png)
 
 So after running the synthesis in yosys synthesis tool as expected we will get the result as shown below 
 
@@ -286,15 +287,13 @@ And if all the 3 outputs are used in determining the primary outputs then 3 Flop
 
 <a name = "sub-heading5"/>
 
+
 ### Introduction 
 
 Gatel Level Simulation is necessary to verify whether the synthesized netlist matches the RTL simulation done before synthesis and to check if there is any synthesis and simulation mismathes are present. The flow for doing the GLS is as shown below by the instructor : 
 
-<p float="left">
- 
-  <img src="https://user-images.githubusercontent.com/64180927/166147123-11c33e1c-6fe7-4428-ad52-ffa31e928bdf.png" />
- 
-  </p>
+![Screenshot from 2022-05-01 21-00-50](https://user-images.githubusercontent.com/64180927/166153033-b12f6108-7b0d-4814-bb98-e5cdd397a46e.png)
+
 
 <a name = "sub-heading5a"/>
 
@@ -325,7 +324,9 @@ On the same design when we do syntheis in yosys  we get a MUX with out any flop 
 
 ## DAY 5 :  If, case , for loop and generate 
 
+  <a name = "sub-heading6"/> 
+
 ### latch infering in IF construct 
 
-  <a name = "sub-heading5"/> 
+
 
