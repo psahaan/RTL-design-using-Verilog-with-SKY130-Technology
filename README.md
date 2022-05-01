@@ -29,6 +29,8 @@
   - [Day 3 : Combinational And Sequential Optimizations](#heading3) 
     * [ Introduction to optimizations](#sub-heading4)
       + [ Subpart  Part 1 ,2, 3  ](#sub-sub-heading6)
+    * [Combinational Logic Optimizations](#sub-sub-heading6a) 
+    * 
 <a name="heading"/>
 
 ## RTL Design Using Verilog With SKY130 Technology 
@@ -222,4 +224,20 @@ Some circuits like multiplications by 2 and 9 do not actually need multipliers ,
 
 <a name = "sub-sub-heading6"/> 
 
-In this module we are introduced to basic optimization schemes for both combinational and sequential circuits, some of them are constant logic optimization , boolean logic optimization in case of combinational circuits  and sequantial constant optimization in case of sequential circuits. Other important optimization like cloning , retiming were also discussed 
+#### Subpart 1,2,3  
+
+In this module we are introduced to basic optimization schemes for both combinational and sequential circuits, some of them are constant logic optimization , boolean logic optimization in case of combinational circuits  and sequantial constant optimization in case of sequential circuits. Other important optimization like cloning , retiming were also discussed.
+
+
+<a name = "sub-sub-heading6a"/> 
+
+### Combinational Logic Optimizations 
+
+Some logic with with multiplexers for which  some of the inputs of the multiplexers is tied to zero need not need  a mux they just need an AND gate , this kind of optimizations are very useful to reduce the logic , these are defined as shown below  
+
+
+![13](https://user-images.githubusercontent.com/64180927/166145029-84c4abbf-5759-4595-8085-e3df6b7126d4.png)
+
+So after running the synthesis in yosys synthesis tool as expected we will get the result as shown below 
+
+![14](https://user-images.githubusercontent.com/64180927/166145111-64d3b13f-1385-4499-92c0-4031cdd5c2fc.png)
