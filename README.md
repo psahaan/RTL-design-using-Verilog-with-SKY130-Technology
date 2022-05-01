@@ -148,7 +148,15 @@ The discussion continues on more detailed information about the SKY130 standard 
    
  
    <img src="https://user-images.githubusercontent.com/64180927/166155592-a544dbe3-25b0-4f93-9875-ac98fae3e029.png" />
+ 
+ </p>
+ 
+ #### Comparision of different versions of the same  gate 
+ 
+ <p float="left">
+ 
   <img src="https://user-images.githubusercontent.com/64180927/166155776-23864a93-3de1-4675-8721-5bc9d42124bd.png" />
+ 
   </p>
   
 <a name = "sub-heading3a"/>
@@ -345,6 +353,10 @@ After synthesys the above code will be as shown below as expected
   <a name = "sub-heading6a"/> 
 
 ### latch infering in CASE construct 
+Similar problems occur if we do not properly code the CASE construct . A properly written CASE statement with default statement removes problems in case statement. The figures below shows the problematic CASE coding styles 
+
+
+
 
 
 
