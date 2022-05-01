@@ -36,6 +36,7 @@
    * [ Synthesis simulation Mismatches ](#sub-heading5a)
  - [Day 5 : If, case , for loop and generate  ](#heading5)
     * [ Latch inferring in If construct :](#sub-heading6)
+    * [ Latch inferring in CASE construct :](#sub-heading6a)
 
 
 <a name="heading"/>
@@ -335,7 +336,12 @@ The below image shows one of the wrong ways of coding the mux as this will infer
 
 After synthesys the above code will be as shown below as expected 
 
-![DAY 5 9](https://user-images.githubusercontent.com/64180927/166154850-00b6f014-2071-4028-986e-c7b3e424bc66.png)
+![DAY 5 9](https://user-images.githubusercontent.com/64180927/166154850-00b6f014-2071-4028-986e-c7b3e424bc66.png)  
+
+
+  <a name = "sub-heading6a"/> 
+
+### latch infering in CASE construct 
 
 
 
