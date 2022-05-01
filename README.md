@@ -32,7 +32,8 @@
     * [Sequential  Logic Optimizations](#sub-sub-heading6b)  
     * [Sequential  Logic Optimizations for unused ports ](#sub-sub-heading6c)   
  - [Day 4 : GLS,blocking vs non-blocking , Synthesis Simulation Mismatches ](#heading4)
-   * [ Introduction to optimizations](#sub-heading4)
+   * [ Introduction :](#sub-heading5)
+   * [ Synthesis simulation Mismatches ](#sub-heading5a)
 
 
 <a name="heading"/>
@@ -279,10 +280,13 @@ And if all the 3 outputs are used in determining the primary outputs then 3 Flop
 
 <a name = "heading4"/>
 
-# GLS,blocking vs non-blocking , Synthesis Simulation Mismatches 
+## DAY 4 :  GLS,blocking vs non-blocking , Synthesis Simulation Mismatches 
+
+<a name = "sub-heading5"/>
+
+### Introduction 
 
 Gatel Level Simulation is necessary to verify whether the synthesized netlist matches the RTL simulation done before synthesis and to check if there is any synthesis and simulation mismathes are present. The flow for doing the GLS is as shown below by the instructor : 
-
 
 <p float="left">
  
@@ -290,3 +294,6 @@ Gatel Level Simulation is necessary to verify whether the synthesized netlist ma
  
   </p>
 
+<a name = "sub-heading5a"/>
+
+###  Synthesis simulation Mismatches 
