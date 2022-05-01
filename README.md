@@ -429,7 +429,7 @@ If we need to need to repeat multiple instances of the same hard ware  as in cas
 #### For Loop vs For Generate  
 
 
-![Screenshot from 2022-05-02 00-38-33](https://user-images.githubusercontent.com/64180927/166160809-2d9edbc3-8945-4b67-a623-c472bdade7c4.png)
+![Screenshot from 2022-05-02 00-44-12](https://user-images.githubusercontent.com/64180927/166161014-264ddca1-33c6-4bbc-b4a4-8c2f53b50515.png)
 
 
 <a name = "#heading6"/>
