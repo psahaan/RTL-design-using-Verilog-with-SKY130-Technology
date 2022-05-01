@@ -419,6 +419,7 @@ There is also a synthesis and simulation mismatch in this bad case as shown belo
 For Loop is used to evaluate the expressions. For example if we need to write a verilog code for 256 X 1 MUX ,it becoms quite difficult to write using a case statement as it would require writing all the possible 256 cases, instead using a  For loop reduces the complexity of the code .
 
 <a name = "sub-sub-heading8a"/>
+
 #### For Generate
 
 If we need to need to repeat multiple instances of the same hard ware  as in case of  ripple carry adder For Generate becoms handy. The main key differences between For Loop and For Generate is shown in the table below 
