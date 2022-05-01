@@ -394,8 +394,10 @@ As expected, during synthesis a latch is infered in x path due to improper way o
 
 
 
+![DAY 5 29](https://user-images.githubusercontent.com/64180927/166159940-4105f2eb-7353-46e8-a859-776a65fa3fc6.png)
 
+There is also a synthesis and simulation mismatch in this bad case as shown below , 
 
-
-
+![DAY 5 30](https://user-images.githubusercontent.com/64180927/166159974-d1a18618-4437-4832-bb72-dee873e0ab97.png)
+![DAY 5 32](https://user-images.githubusercontent.com/64180927/166159980-90f55978-90f1-41be-8661-67acce95449f.png)
 
