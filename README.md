@@ -31,7 +31,8 @@
     * [Combinational Logic Optimizations](#sub-sub-heading6a) 
     * [Sequential  Logic Optimizations](#sub-sub-heading6b)  
     * [Sequential  Logic Optimizations for unused ports ](#sub-sub-heading6c)   
- - [Day 4 : GLS,blocking vs non-blocking , Synthesis Simulation Mismatches ](#heading4) 
+ - [Day 4 : GLS,blocking vs non-blocking , Synthesis Simulation Mismatches ](#heading4)
+   * [ Introduction to optimizations](#sub-heading4)
 
 
 <a name="heading"/>
@@ -285,8 +286,7 @@ Gatel Level Simulation is necessary to verify whether the synthesized netlist ma
 
 <p float="left">
  
-  <img src="https://https://user-images.githubusercontent.com/64180927/166147097-9dea91a2-48b7-4cfa-9163-e52e9931dffe.png" width="500"/>
+  <img src="https://user-images.githubusercontent.com/64180927/166147123-11c33e1c-6fe7-4428-ad52-ffa31e928bdf.png" />
  
   </p>
-
 
