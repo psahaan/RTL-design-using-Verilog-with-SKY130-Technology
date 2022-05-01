@@ -318,4 +318,10 @@ On the same design when we do syntheis in yosys  we get a MUX with out any flop 
 
 
 
- Similar kind of behaviour is expected when we do not properly use blocking statements, the order in which we write the blocking statements may lead to synthesis simulation mismatches 
+ Similar kind of behaviour is expected when we do not properly use blocking statements, the order in which we write the blocking statements may lead to synthesis simulation mismatches  
+ 
+ <a name = "heading4"/>
+
+## DAY 5 :  If, case , for loop and generate 
+
+
