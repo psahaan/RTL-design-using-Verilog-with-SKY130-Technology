@@ -257,7 +257,24 @@ Similarly in case of Sequential Logic Circuits like DFF ,( not in all the cases 
 
 ### Sequential  Logic Optimizations for unused ports 
 
-Outputs not having a direct roule in determining the primary outputs , all those outputs are optimised by the synthesizer , this is shown in figures below 
+Outputs not having a direct roule in determining the primary outputs , all those outputs are optimised by the synthesizer ,For example if we take a  three bit counter and take only the LSB output is playing the role in determining the final output , then the other 2 outputs of the counter are optimized , this is shown in figures below , we generally expect 3 flops in case of 3 bit counter , but if we only take the LSB output of the three bit counter the synthesis result will give only one counter , the results after synthesis are shown below 
+
+<p float="left">
+ 
+  <img src="https://user-images.githubusercontent.com/64180927/166145749-7b9bc0d1-7b5e-422b-bcbe-a49e553be9d1.png" width="500"/>
+  <img src="https://user-images.githubusercontent.com/64180927/166145795-0e508394-8aa6-46fe-b5c0-cfc5066a28f2.png" width="500"/>
+ 
+  </p>
+
+And if all the 3 outputs are used in determining the primary outputs then 3 Flops are generated unlike the above case , the synthesized design is as shown below 
+
+<p float="left">
+ 
+  <img src="https://user-images.githubusercontent.com/64180927/166145902-5acfab76-2e2a-4030-b9cc-250ab427f610.png" width="500"/>
+ 
+  </p>
+
+
 
 
 
